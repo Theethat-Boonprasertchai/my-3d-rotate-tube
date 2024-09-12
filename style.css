@@ -5,7 +5,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: "Poppins", sans-serif;
+  font-family: "Playwrite CU", cursive;
 }
 
 select:focus,
@@ -16,7 +16,7 @@ button:focus {
 
 /* -------- BODY DISPLAY --------- */
 body {
-  background-color: #222;
+  background-color: #c1ffff;
   overflow: hidden;
   display: flex;
   justify-content: center;
@@ -38,7 +38,7 @@ body {
 }
 
 .container .box span {
-  background: linear-gradient(90deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5) 90%, transparent);
+  background: linear-gradient(90deg, rgba(245, 229, 229, 0.1), rgba(231, 219, 219, 0.5) 90%, transparent);
   text-transform: uppercase;
   line-height: 0.76em;
   position: absolute;
@@ -57,11 +57,11 @@ body {
 }
 
 .container .box span i:nth-child(1) {
-  color: #5c5fc4;
+  color: #ff0000;
 }
 
 .container .box span i:nth-child(2) {
-  color: #c4c15c;
+  color: #2510dd;
 }
 
 @keyframes animate {
